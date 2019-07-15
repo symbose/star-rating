@@ -1,0 +1,79 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:42
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-earth:before { content: "\f100"; }
+.flaticon-flowers:before { content: "\f101"; }
+.flaticon-fruit-tree:before { content: "\f102"; }
+.flaticon-growth:before { content: "\f103"; }
+.flaticon-palm-tree:before { content: "\f104"; }
+.flaticon-pine:before { content: "\f105"; }
+.flaticon-pinwheel:before { content: "\f106"; }
+.flaticon-plant:before { content: "\f107"; }
+.flaticon-plant-1:before { content: "\f108"; }
+.flaticon-poppy:before { content: "\f109"; }
+.flaticon-recycling:before { content: "\f10a"; }
+.flaticon-rose:before { content: "\f10b"; }
+.flaticon-sprout:before { content: "\f10c"; }
+.flaticon-tree:before { content: "\f10d"; }
+.flaticon-trees:before { content: "\f10e"; }
+.flaticon-tulip:before { content: "\f10f"; }
+.flaticon-vegetables:before { content: "\f110"; }
+.flaticon-water-tap:before { content: "\f111"; }
+.flaticon-watering:before { content: "\f112"; }
+.flaticon-wheat:before { content: "\f113"; }
+    
+    $font-Flaticon-earth: "\f100";
+    $font-Flaticon-flowers: "\f101";
+    $font-Flaticon-fruit-tree: "\f102";
+    $font-Flaticon-growth: "\f103";
+    $font-Flaticon-palm-tree: "\f104";
+    $font-Flaticon-pine: "\f105";
+    $font-Flaticon-pinwheel: "\f106";
+    $font-Flaticon-plant: "\f107";
+    $font-Flaticon-plant-1: "\f108";
+    $font-Flaticon-poppy: "\f109";
+    $font-Flaticon-recycling: "\f10a";
+    $font-Flaticon-rose: "\f10b";
+    $font-Flaticon-sprout: "\f10c";
+    $font-Flaticon-tree: "\f10d";
+    $font-Flaticon-trees: "\f10e";
+    $font-Flaticon-tulip: "\f10f";
+    $font-Flaticon-vegetables: "\f110";
+    $font-Flaticon-water-tap: "\f111";
+    $font-Flaticon-watering: "\f112";
+    $font-Flaticon-wheat: "\f113";
